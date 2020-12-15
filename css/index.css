@@ -1,0 +1,15 @@
+body {
+    font-family: Microsoft JhengHei;
+}
+#banner {
+    height: 750px;
+    background-image: url(../images/banner1.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+.shopimg {
+    width: 350px;
+}
+#info {
+    background-color: #e8e0dc;
+}

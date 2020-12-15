@@ -1,0 +1,33 @@
+body {
+    font-family: Microsoft JhengHei;
+}
+#about {
+    position: fixed;
+    background-image: url(../images/brandbg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    padding-top: 25vh;
+}
+#photo {
+    height: 20vh;
+}
+#high {
+    height: 30vh;
+}
+#con {
+    padding-top: 25vh;
+}
+.brandimg {
+    height: 200px;
+}
+@media (max-width:991.5px) {
+    #about {
+        position: static;
+        height: 70vh;
+    }
+    #high {
+        height: 30vh;
+    }
+}
